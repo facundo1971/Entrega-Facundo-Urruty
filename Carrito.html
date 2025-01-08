@@ -1,0 +1,32 @@
+<Carrito html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar</title>
+</head>
+<body>
+    <header>
+        <div id="titulo">Tienda Sal Espiritu Gaucho</div>
+        <br>
+        <button id="btnPagar" onclick="pagar()">Pagar</button>
+        <button id="btnLimpiar" onclick="limpiarCarrito()">Vaciar Carrito</button>
+    </header>
+    <main>
+        <section>
+            <div class="tarjeta">
+                <h3>Sal x 300 grs</h3>
+                <h2>$ 4000.-</h2>
+                <button id="btnComprar" onclick="agregarProducto('Remera', 2000)">Comprar</button>
+            </div>
+        </section>
+       
+    </main>
+    <div id="carrito"></div>
+
+    <footer></footer>
+
+    <script src="tienda.js"> </script> 
+</body>
+</html>

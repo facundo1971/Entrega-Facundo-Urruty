@@ -1,0 +1,15 @@
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+    text-align: center;
+}
+
+.grilla-item {
+    background-color: chocolate;
+}
+
+.uno {
+    grid-column: span 2;
+}
